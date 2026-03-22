@@ -6,10 +6,8 @@ Figura1. Modelo
 ![Figura1. Modelo](Projeto-Música-Exemplo.png)
 Figura2. Exemplo
 
-#Exemplo Query:
-
-</>markdown
 ## Exemplo de Query
+</>markdown
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
 
 // Músicas já consumidas
