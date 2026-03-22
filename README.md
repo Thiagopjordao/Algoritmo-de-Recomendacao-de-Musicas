@@ -7,7 +7,7 @@ Figura1. Modelo
 Figura2. Exemplo
 
 ## Exemplo de Query
-</>markdown
+</> cypher
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
 
 // Músicas já consumidas
