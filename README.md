@@ -7,7 +7,7 @@ Figura1. Modelo
 Figura2. Exemplo
 
 #Exemplo Query:
-
+![Figura1. Modelo](Query-Cipher-de-recomendação.txt)
 
 #Setup
 
