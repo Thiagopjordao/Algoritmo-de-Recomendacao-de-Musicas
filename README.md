@@ -8,7 +8,7 @@ Figura2. Exemplo
 
 </> Markdown
 ## Exemplo de Query
-
+```cypher
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
 
 // Músicas já consumidas
@@ -45,10 +45,12 @@ WITH rec,
      (artistScore * 2) +
      (followScore * 3) AS score
 
+
+
 RETURN rec.titulo AS musica, score
 ORDER BY score DESC
 LIMIT 5
-
+```
 
 
 
