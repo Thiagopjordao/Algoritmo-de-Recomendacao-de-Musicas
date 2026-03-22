@@ -7,6 +7,7 @@ Figura1. Modelo
 Figura2. Exemplo
 
 #Exemplo Query:
+
 </>markdown
 ## Exemplo de Query
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
