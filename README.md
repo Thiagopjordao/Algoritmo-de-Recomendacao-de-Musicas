@@ -6,7 +6,7 @@ Figura1. Modelo
 ![Figura1. Modelo](Projeto-Música-Exemplo.png)
 Figura2. Exemplo
 
-</> Markdown
+
 ## Exemplo de Query
 ```cypher
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
