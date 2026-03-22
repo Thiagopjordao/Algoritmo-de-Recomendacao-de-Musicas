@@ -8,6 +8,7 @@ Figura2. Exemplo
 
 ## Exemplo de Query
 </> cypher
+
 MATCH (u:Person {name: "Lucas", tipo: "Usuário"})
 
 // Músicas já consumidas
