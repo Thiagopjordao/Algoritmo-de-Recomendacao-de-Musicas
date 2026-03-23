@@ -17,8 +17,11 @@ Figura2.Exemplo
 
 ## Tipos de nós:
 Person (Usuário)
+
 Person (Artista)
+
 Musica
+
 Gênero
 
 ## Relacionamentos:
