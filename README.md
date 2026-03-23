@@ -4,7 +4,7 @@ Este projeto implementa um algoritmo de recomendação de músicas baseado em gr
 A modelagem foi inspirada em sistemas reais de streaming, onde recomendações são geradas a partir de múltiplos sinais como:
 - comportamento do usuário (escuta e curtidas)
 - afinidade com artistas
-- similaridade de gêneros
+-  similaridade de gêneros
 - conexões sociais (seguindo artistas)
 
 ![Figura1. Modelo](Modelo-do-Projeto-Música.png)
@@ -134,23 +134,20 @@ Cypher para definição das estruturas
 
 ## Setup
 
--Instale o Neo4j
--Crie um banco de dados local
--Execute o script de criação (Grapho-de-Música-em-Cipher.txt)-
--Execute a query de recomendação
+- Instale o Neo4j
+- Crie um banco de dados local
+- Execute o script de criação (Grapho-de-Música-em-Cipher.txt)-
+- Execute a query de recomendação
 
 📥 Data Import
 
 Os dados foram inseridos manualmente via Cypher, simulando:
 
-usuários com diferentes perfis
-
-múltiplos gêneros musicais
-
-conexões entre artistas e colaborações
+- usuários com diferentes perfis
+- múltiplos gêneros musicais
+- conexões entre artistas e colaborações
 
 ## Conclusão
 
 Este projeto demonstra como bancos de dados em grafo permitem criar recomendações mais ricas e conectadas do que abordagens tradicionais.
-
 A combinação de múltiplos fatores (gênero, artista e comportamento) possibilita um sistema mais próximo de plataformas reais como Spotify.
