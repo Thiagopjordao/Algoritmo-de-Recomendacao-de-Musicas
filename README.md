@@ -5,8 +5,11 @@ Este projeto implementa um algoritmo de recomendação de músicas baseado em gr
 A modelagem foi inspirada em sistemas reais de streaming, onde recomendações são geradas a partir de múltiplos sinais como:
 
 comportamento do usuário (escuta e curtidas)
+
 afinidade com artistas
+
 similaridade de gêneros
+
 conexões sociais (seguindo artistas)
 
 ![Figura1. Modelo](Modelo-do-Projeto-Música.png)
@@ -34,6 +37,20 @@ Gênero
 (:Artista)-[:TOCAM]->(:Musica)
 
 (:Musica)-[:DO_GENERO]->(:Genre)
+
+## Lógica da Recomendação
+
+O algoritmo combina múltiplos fatores para gerar recomendações:
+
+Fator	Peso	Descrição
+
+Gênero	1	Músicas do mesmo gênero
+
+Artista	2	Músicas do mesmo artista
+
+Artista seguido	3	Artistas que o usuário segue
+
+👉 Isso permite uma recomendação híbrida (conteúdo + comportamento + social)
 
 ## Exemplo de Query
 ```cypher
@@ -79,6 +96,30 @@ RETURN rec.titulo AS musica, score
 ORDER BY score DESC
 LIMIT 5
 ```
+## Exemplos de Recomendação
+👤 Usuário: Lucas
+
+Baseado em afinidade com Pop e músicas de The Weeknd
+
+Recomendações:
+
+Levitating — Dua Lipa (mesmo gênero)
+
+Don't Start Now — Dua Lipa (mesmo gênero)
+
+Shape of You — Ed Sheeran (similaridade de estilo)
+
+👤 Usuário: Anderson
+
+Baseado em EDM e artistas como David Guetta
+
+Recomendações:
+
+Titanium — David Guetta (mesmo artista + gênero)
+
+She Wolf — Sia (colaboração recorrente)
+
+Don't You Worry Child — Swedish House Mafia (mesmo gênero)
 
 ## Ferramentas
 
@@ -98,8 +139,27 @@ Cypher para definição das estruturas
 
 📄 Query-Cipher-de-recomendação.txt → algoritmo para busca
 
-#Setup
+Setup
+Instale o Neo4j
 
-#Data Import
+Crie um banco de dados local
 
-#Feedback
+Execute o script de criação (Grapho-de-Música-em-Cipher.txt)
+
+Execute a query de recomendação
+
+📥 Data Import
+
+Os dados foram inseridos manualmente via Cypher, simulando:
+
+usuários com diferentes perfis
+
+múltiplos gêneros musicais
+
+conexões entre artistas e colaborações
+
+## Conclusão
+
+Este projeto demonstra como bancos de dados em grafo permitem criar recomendações mais ricas e conectadas do que abordagens tradicionais.
+
+A combinação de múltiplos fatores (gênero, artista e comportamento) possibilita um sistema mais próximo de plataformas reais como Spotify.
