@@ -1,16 +1,11 @@
 # Algoritmo-de-Recomendacao-de-Musicas
 ## Descrição:
-Este projeto implementa um algoritmo de recomendação de músicas baseado em grafos, utilizando conceitos de relacionamento entre usuários, artistas e gêneros.
-
+Este projeto implementa um algoritmo de recomendação de músicas baseado em grafos, utilizando conceitos de relacionamento entre usuários, artistas e gêneros. 
 A modelagem foi inspirada em sistemas reais de streaming, onde recomendações são geradas a partir de múltiplos sinais como:
-
-comportamento do usuário (escuta e curtidas)
-
-afinidade com artistas
-
-similaridade de gêneros
-
-conexões sociais (seguindo artistas)
+- comportamento do usuário (escuta e curtidas)
+- afinidade com artistas
+-similaridade de gêneros
+-conexões sociais (seguindo artistas)
 
 ![Figura1. Modelo](Modelo-do-Projeto-Música.png)
 Figura1.Modelo
