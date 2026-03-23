@@ -37,13 +37,11 @@ Gênero
 
 O algoritmo combina múltiplos fatores para gerar recomendações:
 
-Fator	Peso	Descrição
-
-Gênero	1	Músicas do mesmo gênero
-
-Artista	2	Músicas do mesmo artista
-
-Artista seguido	3	Artistas que o usuário segue
+| Fator           | Peso | Descrição                    |
+| --------------- | ---- | ---------------------------- |
+| Gênero          | 1    | Músicas do mesmo gênero      |
+| Artista         | 2    | Músicas do mesmo artista     |
+| Artista seguido | 3    | Artistas que o usuário segue |
 
 👉 Isso permite uma recomendação híbrida (conteúdo + comportamento + social)
 
