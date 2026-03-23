@@ -4,8 +4,8 @@ Este projeto implementa um algoritmo de recomendação de músicas baseado em gr
 A modelagem foi inspirada em sistemas reais de streaming, onde recomendações são geradas a partir de múltiplos sinais como:
 - comportamento do usuário (escuta e curtidas)
 - afinidade com artistas
--similaridade de gêneros
--conexões sociais (seguindo artistas)
+- similaridade de gêneros
+- conexões sociais (seguindo artistas)
 
 ![Figura1. Modelo](Modelo-do-Projeto-Música.png)
 Figura1.Modelo
