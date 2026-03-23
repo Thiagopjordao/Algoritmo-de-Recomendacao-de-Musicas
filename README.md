@@ -53,7 +53,15 @@ ORDER BY score DESC
 LIMIT 5
 ```
 
+##Ferramentas
+Arrows.app para modelagem visual
+Neo4j (conceitual)
+Cypher para definição das estruturas
 
+##Arquivos
+📊 streaming-graph.png → diagrama do grafo
+📊 streaming-graph-full.png → diagrama do grafo
+📄 model.cql → exemplo de criação dos nós e relacionamentos
 
 
 #Setup
