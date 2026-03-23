@@ -25,7 +25,7 @@ Gênero
 ## Relacionamentos:
 (:Usuário)-[:ESCUTA]->(:Musica)
 
-(:Usuário)-[:CURTE]->(:Musica)
+(:Usuário)-[:CURTE]->(:Gênero)
 
 (:Usuário)-[:SEGUE]->(:Artista)
 
