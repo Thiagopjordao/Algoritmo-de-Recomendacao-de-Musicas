@@ -53,7 +53,7 @@ ORDER BY score DESC
 LIMIT 5
 ```
 
-##Ferramentas
+## Ferramentas
 
 Arrows.app para modelagem visual
 
@@ -61,7 +61,7 @@ Neo4j (conceitual)
 
 Cypher para definição das estruturas
 
-##Arquivos
+## Arquivos
 
 📊 Modelo-do-Projeto-Música.png → diagrama do grafo
 
