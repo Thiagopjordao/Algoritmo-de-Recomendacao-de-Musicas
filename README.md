@@ -132,14 +132,12 @@ Cypher para definição das estruturas
 
 📄 Query-Cipher-de-recomendação.txt → algoritmo para busca
 
-Setup
-Instale o Neo4j
+## Setup
 
-Crie um banco de dados local
-
-Execute o script de criação (Grapho-de-Música-em-Cipher.txt)
-
-Execute a query de recomendação
+-Instale o Neo4j
+-Crie um banco de dados local
+-Execute o script de criação (Grapho-de-Música-em-Cipher.txt)-
+-Execute a query de recomendação
 
 📥 Data Import
 
