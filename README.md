@@ -56,14 +56,19 @@ LIMIT 5
 ##Ferramentas
 
 Arrows.app para modelagem visual
+
 Neo4j (conceitual)
+
 Cypher para definição das estruturas
 
 ##Arquivos
 
 📊 Modelo-do-Projeto-Música.png → diagrama do grafo
+
 📊 Projeto-Música-Exemplo.png → diagrama do grafo
+
 📄Grapho-de-Música-em-Cipher.txt → exemplo de criação dos nós e relacionamentos
+
 📄 Query-Cipher-de-recomendação.txt → algoritmo para busca
 
 #Setup
